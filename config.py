@@ -32,7 +32,7 @@ from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
 
-mod = "mod1"
+mod = "mod4"
 terminal = guess_terminal()
 
 keys = [
@@ -140,7 +140,7 @@ screens = [
                 widget.Battery(foreground="#d75f5f"),
                 widget.PulseVolume(foreground="#0C80BC"),
                 widget.Backlight(
-                    backlight_name='intel_backlight',
+                    backlight_name='amdgpu_bl0',
                     change_command="xbacklight -set {0}",
                     foreground="#CD8A8A"
                 ),
