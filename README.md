@@ -1,4 +1,7 @@
 # qtile
+## Installation
+git clone git@github.com:holovin777/qtile.git
+
 ## Configuration
 ```bash
 sudo pacman -S acpilight
