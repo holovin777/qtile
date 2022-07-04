@@ -137,7 +137,7 @@ screens = [
                 ),
                 widget.Systray(),
                 widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
-                widget.Battery(foreground="#d75f5f"),
+                widget.Battery(foreground="#41A317"),
                 widget.PulseVolume(foreground="#0C80BC"),
                 widget.Backlight(
                     backlight_name='amdgpu_bl0',
